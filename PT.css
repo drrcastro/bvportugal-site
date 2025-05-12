@@ -1,6 +1,6 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
-  min-height: 575px;
+  min-height: 595px;
 }
 
 .u-section-1 .u-gallery-1 {
@@ -11,7 +11,7 @@
   --animation-custom_in-scale: 0.3;
   margin-top: 0;
   margin-bottom: 0;
-  height: 575px;
+  height: 595px;
 }
 
 .u-section-1 .u-carousel-indicators-1 {
@@ -172,7 +172,7 @@
   width: 795px;
   font-weight: 700;
   font-family: Cinzel;
-  margin: -470px auto 0;
+  margin: -490px auto 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -182,9 +182,10 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
-  width: 795px;
   font-family: Norse;
-  margin: 30px auto 0;
+  font-size: 2.25rem;
+  width: 795px;
+  margin: 0 auto;
 }
 
 .u-section-1 .u-btn-1 {
@@ -198,7 +199,8 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 45px auto 0;
+  --radius: 20px;
+  margin: 20px auto 55px;
   padding: 18px 42px 18px 41px;
 }
 
@@ -292,7 +294,6 @@
 
   .u-section-1 .u-btn-1 {
     font-family: Cinzel;
-    --radius: 20px;
   }
 }
 
@@ -477,12 +478,14 @@
 
 .u-section-3 .u-text-2 {
   font-family: Norse;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-text-3 {
   text-transform: uppercase;
   font-family: Cinzel;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
@@ -507,12 +510,14 @@
 
 .u-section-3 .u-text-4 {
   font-family: Norse;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-text-5 {
   text-transform: uppercase;
   font-family: Cinzel;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
@@ -537,12 +542,14 @@
 
 .u-section-3 .u-text-6 {
   font-family: Norse;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-text-7 {
   text-transform: uppercase;
   font-family: Cinzel;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
@@ -567,12 +574,14 @@
 
 .u-section-3 .u-text-8 {
   font-family: Norse;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-text-9 {
   text-transform: uppercase;
   font-family: Cinzel;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
@@ -597,12 +606,14 @@
 
 .u-section-3 .u-text-10 {
   font-family: Norse;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-text-11 {
   text-transform: uppercase;
   font-family: Cinzel;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
@@ -780,7 +791,6 @@
 @media (max-width: 767px) {
   .u-section-3 .u-text-1 {
     margin-top: 55px;
-    width: auto;
   }
 
   .u-section-3 .u-repeater-1 {
@@ -815,7 +825,6 @@
   }
 
   .u-section-3 .u-text-1 {
-    width: auto;
     margin-top: 30px;
     margin-left: 31px;
     margin-right: 31px;

@@ -1,5 +1,6 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('images/medium-shot-man-getting-haircut2-min.jpg');
+  min-height: 594px;
 }
 
 .u-section-1 .u-gallery-1 {
@@ -8,7 +9,9 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
-  margin: 45px auto 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 594px;
 }
 
 .u-section-1 .u-carousel-indicators-1 {
@@ -180,9 +183,10 @@
   --animation-custom_in-scale: 0.3;
   font-size: 5.625rem;
   text-transform: uppercase;
-  font-weight: 700;
   width: 795px;
-  margin: 60px auto 0;
+  font-weight: 700;
+  font-family: Cinzel;
+  margin: -489px auto 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -192,8 +196,10 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
+  font-family: Norse;
   width: 795px;
-  margin: 30px auto 0;
+  font-size: 2.25rem;
+  margin: 0 auto;
 }
 
 .u-section-1 .u-btn-1 {
@@ -207,7 +213,8 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 45px auto 0;
+  --radius: 20px;
+  margin: 31px auto 43px;
   padding: 18px 42px 18px 41px;
 }
 
@@ -220,32 +227,24 @@
 
   .u-section-1 .u-gallery-1 {
     height: 702px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-1 .u-carousel-indicators-1 {
     position: absolute;
     bottom: 10px;
-    margin-left: initial;
   }
 
   .u-section-1 .u-text-1 {
-    font-family: Cinzel;
     margin-top: -565px;
   }
 
   .u-section-1 .u-text-2 {
     font-size: 3.75rem;
-    font-family: Norse;
     margin-top: -11px;
   }
 
   .u-section-1 .u-btn-1 {
     font-family: Cinzel;
-    --radius: 20px;
     margin-top: 20px;
     margin-bottom: 60px;
   }
@@ -258,8 +257,6 @@
 
   .u-section-1 .u-gallery-1 {
     height: 629px;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-1 .u-carousel-control-1 {
@@ -282,13 +279,7 @@
   }
 
   .u-section-1 .u-btn-1 {
-    --animation-custom_in-translate_x: 0px;
-    --animation-custom_in-translate_y: 300px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
     margin-top: 0;
-    padding: 18px 42px 18px 41px;
   }
 }
 
@@ -326,8 +317,6 @@
 
   .u-section-1 .u-gallery-1 {
     height: 538px;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-1 .u-carousel-control-1 {
@@ -362,8 +351,6 @@
 
   .u-section-1 .u-gallery-1 {
     height: 356px;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-1 .u-carousel-control-1 {
@@ -431,6 +418,7 @@
 }
 
 .u-section-3 .u-text-1 {
+  font-family: Cinzel;
   margin: 20px auto 0;
 }
 
@@ -463,19 +451,19 @@
 
 .u-section-3 .u-image-1 {
   white-space: nowrap;
-  height: 19px;
-  min-height: 16px;
-  width: 96px;
-  min-width: 68px;
-  margin: 30px auto 0 0;
+  height: 479px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .u-section-3 .u-text-2 {
+  font-family: Norse;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-text-3 {
   text-transform: uppercase;
+  font-family: Cinzel;
   margin: 20px 0 0;
 }
 
@@ -493,15 +481,20 @@
 }
 
 .u-section-3 .u-image-2 {
-  height: 100%;
+  height: 479px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .u-section-3 .u-text-4 {
+  font-family: Norse;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-text-5 {
   text-transform: uppercase;
+  font-family: Cinzel;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
@@ -519,15 +512,20 @@
 }
 
 .u-section-3 .u-image-3 {
-  height: 100%;
+  height: 479px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .u-section-3 .u-text-6 {
+  font-family: Norse;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-text-7 {
   text-transform: uppercase;
+  font-family: Cinzel;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
@@ -545,15 +543,20 @@
 }
 
 .u-section-3 .u-image-4 {
-  height: 100%;
+  height: 479px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .u-section-3 .u-text-8 {
+  font-family: Norse;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-text-9 {
   text-transform: uppercase;
+  font-family: Cinzel;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
@@ -571,15 +574,20 @@
 }
 
 .u-section-3 .u-image-5 {
-  height: 100%;
+  height: 479px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .u-section-3 .u-text-10 {
+  font-family: Norse;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-text-11 {
   text-transform: uppercase;
+  font-family: Cinzel;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
@@ -589,7 +597,6 @@
   }
 
   .u-section-3 .u-text-1 {
-    font-family: Cinzel;
     margin-top: 55px;
   }
 
@@ -606,88 +613,63 @@
 
   .u-section-3 .u-image-1 {
     height: 299px;
-    margin-top: 0;
-    margin-right: initial;
-    margin-left: initial;
-    min-height: auto;
-    width: auto;
+    min-height: 16px;
+    min-width: 68px;
   }
 
   .u-section-3 .u-text-2 {
-    font-family: Norse;
     font-weight: 700;
   }
 
   .u-section-3 .u-text-3 {
-    font-family: Cinzel;
     font-weight: 700;
   }
 
   .u-section-3 .u-image-2 {
     height: 299px;
-    margin-top: 0;
-    margin-bottom: 0;
     object-position: 50% 0%;
   }
 
   .u-section-3 .u-text-4 {
-    font-family: Norse;
     font-weight: 700;
   }
 
   .u-section-3 .u-text-5 {
-    font-family: Cinzel;
     font-weight: 700;
   }
 
   .u-section-3 .u-image-3 {
     height: 299px;
-    margin-top: 0;
-    margin-bottom: 0;
     object-position: 50% 17.23%;
   }
 
   .u-section-3 .u-text-6 {
-    font-family: Norse;
     font-weight: 700;
   }
 
   .u-section-3 .u-text-7 {
-    font-family: Cinzel;
     font-weight: 700;
   }
 
   .u-section-3 .u-image-4 {
     height: 299px;
-    margin-top: 0;
-    margin-bottom: 0;
     object-position: 50% 28.98%;
   }
 
   .u-section-3 .u-text-8 {
-    font-family: Norse;
     font-weight: 700;
   }
 
   .u-section-3 .u-text-9 {
-    font-family: Cinzel;
     font-weight: 700;
   }
 
   .u-section-3 .u-image-5 {
     height: 299px;
-    margin-top: 0;
-    margin-bottom: 0;
     object-position: 50% 57.05%;
   }
 
-  .u-section-3 .u-text-10 {
-    font-family: Norse;
-    font-weight: 700;
-  }
-
   .u-section-3 .u-text-11 {
-    font-family: Cinzel;
     font-weight: 700;
   }
 }
@@ -705,9 +687,6 @@
   .u-section-3 .u-image-1 {
     inset: auto;
     height: 237px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-3 .u-image-2 {
@@ -744,9 +723,6 @@
 
   .u-section-3 .u-image-1 {
     height: 281px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-3 .u-image-2 {
@@ -778,9 +754,6 @@
 
   .u-section-3 .u-image-1 {
     height: 487px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-3 .u-image-2 {
@@ -822,9 +795,6 @@
 
   .u-section-3 .u-image-1 {
     height: 300px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-3 .u-container-layout-2 {
