@@ -204,7 +204,6 @@
 
 .u-section-1 .u-btn-1 {
   text-transform: uppercase;
-  font-weight: 700;
   letter-spacing: 2px;
   font-size: 1rem;
   background-image: none;
@@ -214,6 +213,8 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   --radius: 20px;
+  font-weight: 700;
+  font-family: Cinzel;
   margin: 31px auto 43px;
   padding: 18px 42px 18px 41px;
 }
@@ -244,7 +245,6 @@
   }
 
   .u-section-1 .u-btn-1 {
-    font-family: Cinzel;
     margin-top: 20px;
     margin-bottom: 60px;
   }
@@ -458,12 +458,14 @@
 
 .u-section-3 .u-text-2 {
   font-family: Norse;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-text-3 {
   text-transform: uppercase;
   font-family: Cinzel;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
@@ -488,6 +490,7 @@
 
 .u-section-3 .u-text-4 {
   font-family: Norse;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
@@ -519,6 +522,7 @@
 
 .u-section-3 .u-text-6 {
   font-family: Norse;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 
@@ -550,6 +554,7 @@
 
 .u-section-3 .u-text-8 {
   font-family: Norse;
+  font-weight: 400;
   margin: 20px 0 0;
 }
 

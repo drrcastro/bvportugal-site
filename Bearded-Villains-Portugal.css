@@ -190,7 +190,6 @@
 
 .u-section-1 .u-btn-1 {
   text-transform: uppercase;
-  font-weight: 700;
   letter-spacing: 2px;
   font-size: 1rem;
   background-image: none;
@@ -200,7 +199,9 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   --radius: 20px;
-  margin: 20px auto 55px;
+  font-weight: 700;
+  font-family: Cinzel;
+  margin: 19px auto 56px;
   padding: 18px 42px 18px 41px;
 }
 
@@ -290,10 +291,6 @@
 
   .u-section-1 .u-text-2 {
     font-size: 3.75rem;
-  }
-
-  .u-section-1 .u-btn-1 {
-    font-family: Cinzel;
   }
 }
 
