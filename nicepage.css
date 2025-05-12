@@ -44529,87 +44529,45 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 134px;
-}
-
-.u-header .u-menu-1 {
-  margin: 51px 0 0 auto;
-}
-
-.u-header .u-hamburger-link-1 {
-  font-size: 1.5rem;
-  padding: 4px 0;
-}
-
-.u-header .u-nav-1 {
-  font-family: Norse;
-  font-size: 1rem;
-  background-image: none;
-  letter-spacing: normal;
-}
-
-.u-header .u-nav-2 {
-  font-size: 1.25rem;
+  min-height: 152px;
 }
 
 .u-header .u-image-1 {
   width: 120px;
   height: 120px;
-  margin: -76px auto 0 0;
+  margin: 11px auto 0 0;
 }
 
-.u-header .u-menu-2 {
-  margin: -69px 24px 58px auto;
+.u-header .u-menu-1 {
+  margin: -73px 0 58px auto;
 }
 
-.u-header .u-file-icon-1 {
-  height: 24px;
-}
-
-.u-header .u-nav-3 {
-  font-size: 1rem;
-  letter-spacing: 0px;
-  font-weight: 700;
-  font-family: Norse;
+.u-header .u-sidenav-1 {
+  --opacity: 0.65;
 }
 
 .u-header .u-nav-4 {
   font-size: 1.25rem;
+  font-family: Norse;
 }
 @media (max-width: 1199px) {
-  .u-header .u-menu-1 {
-    width: auto;
-  }
-
   .u-header .u-image-1 {
     width: 120px;
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-sheet-1 {
-    min-height: 174px;
+  .u-header .u-image-1 {
+    margin-top: 27px;
+    margin-bottom: 27px;
   }
-
-  .u-header .u-menu-1 {
-    margin-top: 71px;
-  }
-
-  .u-header .u-menu-2 {
-    width: auto;
-    margin-bottom: 60px;
+}
+@media (max-width: 767px) {
+  .u-header .u-image-1 {
+    margin-top: 31px;
+    margin-bottom: 23px;
   }
 }
 
-@media (max-width: 575px) {
-  .u-header .u-hamburger-link-1 {
-    font-size: calc(1em + 8px);
-  }
-
-  .u-header .u-menu-2 {
-    margin-top: -72px;
-    margin-right: 27px;
-  }
-}
  .u-footer {
   background-image: none;
 }
