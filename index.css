@@ -183,10 +183,10 @@
   --animation-custom_in-scale: 0.3;
   font-size: 5.625rem;
   text-transform: uppercase;
-  width: 795px;
   font-weight: 700;
   font-family: Cinzel;
-  margin: -489px auto 0;
+  width: 998px;
+  margin: -495px auto 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -197,8 +197,8 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
   font-family: Norse;
+  font-size: 3rem;
   width: 795px;
-  font-size: 2.25rem;
   margin: 0 auto;
 }
 
@@ -215,7 +215,7 @@
   --radius: 20px;
   font-weight: 700;
   font-family: Cinzel;
-  margin: 31px auto 43px;
+  margin: 0 auto 60px;
   padding: 18px 42px 18px 41px;
 }
 
@@ -236,17 +236,14 @@
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: -565px;
+    width: auto;
+    margin-top: -549px;
+    margin-left: 121px;
+    margin-right: 121px;
   }
 
   .u-section-1 .u-text-2 {
     font-size: 3.75rem;
-    margin-top: -11px;
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-top: 20px;
-    margin-bottom: 60px;
   }
 }
 
@@ -272,14 +269,8 @@
   .u-section-1 .u-text-1 {
     font-size: 3.4375rem;
     margin-top: -416px;
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-top: 0;
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-top: 0;
+    margin-left: 21px;
+    margin-right: 21px;
   }
 }
 
@@ -295,7 +286,9 @@
   .u-section-1 .u-text-1 {
     font-size: 2.625rem;
     width: 546px;
-    margin-top: -427px;
+    margin-top: -406px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-1 .u-text-2 {
@@ -303,10 +296,6 @@
     font-size: 3rem;
     margin-left: 50px;
     margin-right: 50px;
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-top: 9px;
   }
 }
 
@@ -338,10 +327,6 @@
     margin-left: 0;
     margin-right: 0;
   }
-
-  .u-section-1 .u-btn-1 {
-    margin-top: 0;
-  }
 }
 
 @media (max-width: 575px) {
@@ -364,12 +349,8 @@
   .u-section-1 .u-text-1 {
     font-size: 2.25rem;
     margin-top: -273px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-text-2 {
-    font-size: 2.25rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-1 .u-btn-1 {
