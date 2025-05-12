@@ -1,19 +1,21 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
-  background-size: cover;
-  background-position: 50% 50%;
-  min-height: 702px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('images/medium-shot-man-getting-haircut2-min.jpg');
 }
 
 .u-section-1 .u-gallery-1 {
-  height: 702px;
-  margin-top: 0;
-  margin-bottom: 0;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+  margin: 45px auto 60px;
 }
 
 .u-section-1 .u-carousel-indicators-1 {
-  position: absolute;
-  bottom: 10px;
+  background-image: none;
+  border-style: solid;
+  margin-left: auto;
+  padding: 0;
 }
 
 .u-section-1 .u-gallery-inner-1 {
@@ -179,9 +181,8 @@
   font-size: 5.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: Cinzel;
   width: 795px;
-  margin: -565px auto 0;
+  margin: 60px auto 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -191,21 +192,63 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
-  font-size: 3.75rem;
-  font-family: Norse;
   width: 795px;
-  margin: -11px auto 0;
+  margin: 30px auto 0;
 }
 
 .u-section-1 .u-btn-1 {
-  background-image: none;
   text-transform: uppercase;
+  font-weight: 700;
   letter-spacing: 2px;
   font-size: 1rem;
-  font-weight: 700;
-  font-family: Cinzel;
-  --radius: 20px;
-  margin: 20px auto 60px;
+  background-image: none;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  margin: 45px auto 0;
+  padding: 18px 42px 18px 41px;
+}
+
+@media (max-width: 1399px) {
+   .u-section-1 {
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 702px;
+  }
+
+  .u-section-1 .u-gallery-1 {
+    height: 702px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-carousel-indicators-1 {
+    position: absolute;
+    bottom: 10px;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-family: Cinzel;
+    margin-top: -565px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 3.75rem;
+    font-family: Norse;
+    margin-top: -11px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    font-family: Cinzel;
+    --radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -215,6 +258,8 @@
 
   .u-section-1 .u-gallery-1 {
     height: 629px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-1 .u-carousel-control-1 {
@@ -281,6 +326,8 @@
 
   .u-section-1 .u-gallery-1 {
     height: 538px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-1 .u-carousel-control-1 {
@@ -315,6 +362,8 @@
 
   .u-section-1 .u-gallery-1 {
     height: 356px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-1 .u-carousel-control-1 {
@@ -378,36 +427,34 @@
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 1145px;
+  min-height: 1470px;
 }
 
 .u-section-3 .u-text-1 {
-  font-family: Cinzel;
-  margin: 55px auto 0;
+  margin: 20px auto 0;
 }
 
 .u-section-3 .u-list-1 {
   grid-template-rows: repeat(1, auto);
   margin-top: 55px;
-  margin-bottom: 55px;
+  margin-bottom: 0;
   height: auto;
 }
 
 .u-section-3 .u-repeater-1 {
-  grid-auto-columns: calc(33.333333333333336% - 12.6667px);
-  grid-template-columns: repeat(3, calc(33.333333333333336% - 12.6667px));
-  min-height: 927px;
-  grid-gap: 19px;
+  grid-auto-columns: calc(33.3333% - 12.6667px);
+  grid-template-columns: repeat(3, calc(33.3333% - 12.6667px));
+  min-height: 1075px;
   --gap: 19px;
 }
 
 .u-section-3 .u-list-item-1 {
+  background-image: none;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  background-image: none;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -415,31 +462,30 @@
 }
 
 .u-section-3 .u-image-1 {
-  height: 299px;
-  margin-top: 0;
-  margin-bottom: 0;
+  white-space: nowrap;
+  height: 19px;
+  min-height: 16px;
+  width: 96px;
+  min-width: 68px;
+  margin: 30px auto 0 0;
 }
 
 .u-section-3 .u-text-2 {
-  font-family: Norse;
-  font-weight: 700;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-text-3 {
   text-transform: uppercase;
-  font-family: Cinzel;
-  font-weight: 700;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-list-item-2 {
+  background-image: none;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  background-image: none;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -447,32 +493,25 @@
 }
 
 .u-section-3 .u-image-2 {
-  height: 299px;
-  margin-top: 0;
-  margin-bottom: 0;
-  object-position: 50% 0%;
+  height: 100%;
 }
 
 .u-section-3 .u-text-4 {
-  font-family: Norse;
-  font-weight: 700;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-text-5 {
   text-transform: uppercase;
-  font-family: Cinzel;
-  font-weight: 700;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-list-item-3 {
+  background-image: none;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  background-image: none;
 }
 
 .u-section-3 .u-container-layout-3 {
@@ -480,32 +519,25 @@
 }
 
 .u-section-3 .u-image-3 {
-  height: 299px;
-  margin-top: 0;
-  margin-bottom: 0;
-  object-position: 50% 17.23%;
+  height: 100%;
 }
 
 .u-section-3 .u-text-6 {
-  font-family: Norse;
-  font-weight: 700;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-text-7 {
   text-transform: uppercase;
-  font-family: Cinzel;
-  font-weight: 700;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-list-item-4 {
+  background-image: none;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  background-image: none;
 }
 
 .u-section-3 .u-container-layout-4 {
@@ -513,32 +545,25 @@
 }
 
 .u-section-3 .u-image-4 {
-  height: 299px;
-  margin-top: 0;
-  margin-bottom: 0;
-  object-position: 50% 28.98%;
+  height: 100%;
 }
 
 .u-section-3 .u-text-8 {
-  font-family: Norse;
-  font-weight: 700;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-text-9 {
   text-transform: uppercase;
-  font-family: Cinzel;
-  font-weight: 700;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-list-item-5 {
+  background-image: none;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  background-image: none;
 }
 
 .u-section-3 .u-container-layout-5 {
@@ -546,23 +571,125 @@
 }
 
 .u-section-3 .u-image-5 {
-  height: 299px;
-  margin-top: 0;
-  margin-bottom: 0;
-  object-position: 50% 57.05%;
+  height: 100%;
 }
 
 .u-section-3 .u-text-10 {
-  font-family: Norse;
-  font-weight: 700;
   margin: 20px 0 0;
 }
 
 .u-section-3 .u-text-11 {
   text-transform: uppercase;
-  font-family: Cinzel;
-  font-weight: 700;
   margin: 20px 0 0;
+}
+
+@media (max-width: 1399px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 1145px;
+  }
+
+  .u-section-3 .u-text-1 {
+    font-family: Cinzel;
+    margin-top: 55px;
+  }
+
+  .u-section-3 .u-list-1 {
+    margin-bottom: 55px;
+  }
+
+  .u-section-3 .u-repeater-1 {
+    grid-auto-columns: calc(33.333333333333336% - 12.6667px);
+    grid-template-columns: repeat(3, calc(33.333333333333336% - 12.6667px));
+    min-height: 927px;
+    grid-gap: 19px;
+  }
+
+  .u-section-3 .u-image-1 {
+    height: 299px;
+    margin-top: 0;
+    margin-right: initial;
+    margin-left: initial;
+    min-height: auto;
+    width: auto;
+  }
+
+  .u-section-3 .u-text-2 {
+    font-family: Norse;
+    font-weight: 700;
+  }
+
+  .u-section-3 .u-text-3 {
+    font-family: Cinzel;
+    font-weight: 700;
+  }
+
+  .u-section-3 .u-image-2 {
+    height: 299px;
+    margin-top: 0;
+    margin-bottom: 0;
+    object-position: 50% 0%;
+  }
+
+  .u-section-3 .u-text-4 {
+    font-family: Norse;
+    font-weight: 700;
+  }
+
+  .u-section-3 .u-text-5 {
+    font-family: Cinzel;
+    font-weight: 700;
+  }
+
+  .u-section-3 .u-image-3 {
+    height: 299px;
+    margin-top: 0;
+    margin-bottom: 0;
+    object-position: 50% 17.23%;
+  }
+
+  .u-section-3 .u-text-6 {
+    font-family: Norse;
+    font-weight: 700;
+  }
+
+  .u-section-3 .u-text-7 {
+    font-family: Cinzel;
+    font-weight: 700;
+  }
+
+  .u-section-3 .u-image-4 {
+    height: 299px;
+    margin-top: 0;
+    margin-bottom: 0;
+    object-position: 50% 28.98%;
+  }
+
+  .u-section-3 .u-text-8 {
+    font-family: Norse;
+    font-weight: 700;
+  }
+
+  .u-section-3 .u-text-9 {
+    font-family: Cinzel;
+    font-weight: 700;
+  }
+
+  .u-section-3 .u-image-5 {
+    height: 299px;
+    margin-top: 0;
+    margin-bottom: 0;
+    object-position: 50% 57.05%;
+  }
+
+  .u-section-3 .u-text-10 {
+    font-family: Norse;
+    font-weight: 700;
+  }
+
+  .u-section-3 .u-text-11 {
+    font-family: Cinzel;
+    font-weight: 700;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -578,6 +705,9 @@
   .u-section-3 .u-image-1 {
     inset: auto;
     height: 237px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-3 .u-image-2 {
@@ -614,6 +744,9 @@
 
   .u-section-3 .u-image-1 {
     height: 281px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-3 .u-image-2 {
@@ -645,6 +778,9 @@
 
   .u-section-3 .u-image-1 {
     height: 487px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-3 .u-image-2 {
@@ -686,6 +822,9 @@
 
   .u-section-3 .u-image-1 {
     height: 300px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-3 .u-container-layout-2 {
