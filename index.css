@@ -464,7 +464,7 @@
 .u-section-3 .u-text-3 {
   text-transform: uppercase;
   font-family: Cinzel;
-  font-weight: 400;
+  font-weight: 700;
   margin: 20px 0 0;
 }
 
@@ -496,7 +496,7 @@
 .u-section-3 .u-text-5 {
   text-transform: uppercase;
   font-family: Cinzel;
-  font-weight: 400;
+  font-weight: 700;
   margin: 20px 0 0;
 }
 
@@ -528,7 +528,7 @@
 .u-section-3 .u-text-7 {
   text-transform: uppercase;
   font-family: Cinzel;
-  font-weight: 400;
+  font-weight: 700;
   margin: 20px 0 0;
 }
 
@@ -560,7 +560,7 @@
 .u-section-3 .u-text-9 {
   text-transform: uppercase;
   font-family: Cinzel;
-  font-weight: 400;
+  font-weight: 700;
   margin: 20px 0 0;
 }
 
@@ -591,7 +591,7 @@
 .u-section-3 .u-text-11 {
   text-transform: uppercase;
   font-family: Cinzel;
-  font-weight: 400;
+  font-weight: 700;
   margin: 20px 0 0;
 }
 
@@ -625,20 +625,12 @@
     font-weight: 700;
   }
 
-  .u-section-3 .u-text-3 {
-    font-weight: 700;
-  }
-
   .u-section-3 .u-image-2 {
     height: 299px;
     object-position: 50% 0%;
   }
 
   .u-section-3 .u-text-4 {
-    font-weight: 700;
-  }
-
-  .u-section-3 .u-text-5 {
     font-weight: 700;
   }
 
@@ -651,10 +643,6 @@
     font-weight: 700;
   }
 
-  .u-section-3 .u-text-7 {
-    font-weight: 700;
-  }
-
   .u-section-3 .u-image-4 {
     height: 299px;
     object-position: 50% 28.98%;
@@ -664,17 +652,9 @@
     font-weight: 700;
   }
 
-  .u-section-3 .u-text-9 {
-    font-weight: 700;
-  }
-
   .u-section-3 .u-image-5 {
     height: 299px;
     object-position: 50% 57.05%;
-  }
-
-  .u-section-3 .u-text-11 {
-    font-weight: 700;
   }
 }
 
@@ -1055,6 +1035,13 @@
     margin-top: -116px;
   }
 }@font-face {
+  font-family: 'Norse';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Norse.otf);
+}
+/* page-custom-fonts */
+@font-face {
   font-family: 'Norse';
   font-style: normal;
   font-weight: 400;

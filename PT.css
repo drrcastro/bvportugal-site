@@ -1,6 +1,7 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
   min-height: 594px;
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-gallery-1 {
@@ -208,7 +209,6 @@
 @media (max-width: 1399px) {
    .u-section-1 {
     background-size: cover;
-    background-position: 50% 50%;
     min-height: 702px;
   }
 
@@ -527,7 +527,7 @@
 .u-section-3 .u-text-3 {
   text-transform: uppercase;
   font-family: Cinzel;
-  font-weight: 400;
+  font-weight: 700;
   margin: 20px 0 0;
 }
 
@@ -559,7 +559,7 @@
 .u-section-3 .u-text-5 {
   text-transform: uppercase;
   font-family: Cinzel;
-  font-weight: 400;
+  font-weight: 700;
   margin: 20px 0 0;
 }
 
@@ -591,7 +591,7 @@
 .u-section-3 .u-text-7 {
   text-transform: uppercase;
   font-family: Cinzel;
-  font-weight: 400;
+  font-weight: 700;
   margin: 20px 0 0;
 }
 
@@ -623,7 +623,7 @@
 .u-section-3 .u-text-9 {
   text-transform: uppercase;
   font-family: Cinzel;
-  font-weight: 400;
+  font-weight: 700;
   margin: 20px 0 0;
 }
 
@@ -655,7 +655,7 @@
 .u-section-3 .u-text-11 {
   text-transform: uppercase;
   font-family: Cinzel;
-  font-weight: 400;
+  font-weight: 700;
   margin: 20px 0 0;
 }
 
@@ -689,7 +689,6 @@
   }
 
   .u-section-3 .u-text-3 {
-    font-weight: 700;
     margin-top: 21px;
   }
 
@@ -704,7 +703,6 @@
   }
 
   .u-section-3 .u-text-5 {
-    font-weight: 700;
     margin-top: 21px;
   }
 
@@ -719,7 +717,6 @@
   }
 
   .u-section-3 .u-text-7 {
-    font-weight: 700;
     margin-top: 21px;
   }
 
@@ -734,7 +731,6 @@
   }
 
   .u-section-3 .u-text-9 {
-    font-weight: 700;
     margin-top: 21px;
   }
 
@@ -749,7 +745,6 @@
   }
 
   .u-section-3 .u-text-11 {
-    font-weight: 700;
     margin-top: 21px;
   }
 }
@@ -1130,6 +1125,13 @@
     margin-left: auto;
   }
 }@font-face {
+  font-family: 'Norse';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Norse.otf);
+}
+/* page-custom-fonts */
+@font-face {
   font-family: 'Norse';
   font-style: normal;
   font-weight: 400;
