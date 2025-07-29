@@ -46329,7 +46329,7 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -73px 0 58px auto;
+  margin: -73px 0 60px auto;
 }
 
 .u-header .u-sidenav-1 {
@@ -46347,10 +46347,6 @@ a.u-link.u-text-hover-color-var:hover {
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-sheet-1 {
-    min-height: 160px;
-  }
-
   .u-header .u-image-1 {
     margin-top: 20px;
   }
@@ -46358,7 +46354,6 @@ a.u-link.u-text-hover-color-var:hover {
   .u-header .u-menu-1 {
     width: auto;
     margin-top: -76px;
-    margin-bottom: 60px;
   }
 }
 
