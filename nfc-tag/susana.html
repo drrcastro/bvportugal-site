@@ -3,76 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ICE | Informação Médica de Emergência</title>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    
+    <title>ICE | Emergência</title>
     <style>
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: system-ui, -apple-system, sans-serif;
             background-color: #f3f4f6;
+            color: #111827;
+            margin: 0;
+            padding: 0 0 20px 0;
+            display: flex;
+            justify-content: center;
         }
+        .container {
+            width: 100%;
+            max-width: 580px;
+            background: #fff;
+            min-height: 100vh;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #dc2626;
+            color: white;
+            text-align: center;
+            padding: 20px 15px;
+        }
+        .header h1 { margin: 10px 0 0 0; font-size: 24px; text-transform: uppercase; }
+        .header p { margin: 5px 0 0 0; font-size: 14px; font-weight: bold; color: #fecaca; }
+        .alert-helmet {
+            background-color: #facc15;
+            color: #713f12;
+            text-align: center;
+            padding: 12px 15px;
+            font-weight: bold;
+            font-size: 13px;
+            text-transform: uppercase;
+            border-bottom: 4px solid #eab308;
+        }
+        .content { padding: 20px; }
+        .card { margin-bottom: 20px; }
+        .card-title {
+            font-size: 13px;
+            font-weight: bold;
+            color: #6b7280;
+            text-transform: uppercase;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .card-text { font-size: 16px; font-weight: 500; white-space: pre-line; line-height: 1.5; }
+        .alert-box {
+            background-color: #fef2f2;
+            border-left: 5px solid #dc2626;
+            padding: 15px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 20px;
+        }
+        .alert-box h2 { color: #991b1b; font-size: 18px; margin: 0 0 10px 0; }
+        .ice-box {
+            background-color: #f3f4f6;
+            border: 1px solid #e5e7eb;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .ice-box h2 { color: #1f2937; font-size: 18px; margin: 0 0 10px 0; }
+        .star-of-life { fill: white; width: 45px; height: 45px; margin: 0 auto; display: block; }
     </style>
 </head>
-<body class="antialiased flex justify-center min-h-screen text-gray-900 pb-12">
-
-    <div class="w-full max-w-[580px] bg-white shadow-xl min-h-screen">
+<body>
+    <div class="container">
         
-        <!-- CABEÇALHO DE ALERTA -->
-        <div class="bg-red-600 text-white text-center py-6 px-4 shadow-md">
-            <!-- Símbolo Estrela da Vida Simplificado -->
-            <svg class="w-12 h-12 mx-auto mb-2 text-white" fill="currentColor" viewBox="0 0 24 24">
+        <div class="header">
+            <svg class="star-of-life" viewBox="0 0 24 24">
                 <path d="M12 2L13.5 7H18L14.5 10.5L16 16L12 13L8 16L9.5 10.5L6 7H10.5L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
             </svg>
-            <h1 class="text-2xl font-black uppercase tracking-wide">Ficha de Emergência</h1>
-            <p class="text-red-100 font-semibold mt-1">Ler imediatamente em caso de acidente</p>
+            <h1>Ficha de Emergência</h1>
+            <p>Ler imediatamente em caso de acidente</p>
         </div>
 
-        <!-- AVISO CAPACETE -->
-        <div class="bg-yellow-400 text-yellow-900 text-center py-3 px-4 font-bold text-sm uppercase border-b-4 border-yellow-500">
-            ⚠️ Não remover o capacete exceto se houver paragem cardiorrespiratória ⚠️
+        <div class="alert-helmet">
+            ⚠️ Não remover o capacete exceto em paragem cardiorrespiratória ⚠️
         </div>
 
-        <div class="p-5 flex flex-col gap-6">
-            
-            <!-- 1. ALERTAS VITAIS (O MAIS IMPORTANTE) -->
-            <!-- O texto é inserido em whitespace-pre-line para facilitar a edição -->
-            <div class="bg-red-50 border-l-4 border-red-600 p-4 rounded-r-lg">
-                <h2 class="text-red-800 font-bold text-lg mb-2 flex items-center gap-2">
-                    <span>⚠️</span> CONDIÇÕES CLÍNICAS & ALERGIAS
-                </h2>
-                <div class="whitespace-pre-line text-base font-semibold text-red-900">Alergias: Nenhuma
+        <div class="content">
+            <!-- COLA AQUI O TEXTO DE ALERTA -->
+            <div class="alert-box">
+                <h2>⚠️ Condições & Alergias</h2>
+                <div class="card-text" style="color: #7f1d1d; font-weight: bold;">Alergias: Nenhuma
 Condições Graves: Nenhuma
 Tipo Sanguíneo: O rh+</div>
             </div>
 
-            <!-- 2. IDENTIFICAÇÃO -->
-            <div>
-                <h2 class="text-gray-500 font-bold text-sm uppercase tracking-wider mb-2 border-b pb-1">Identificação do Acidentado</h2>
-                <div class="whitespace-pre-line text-base text-gray-800 font-medium">Nome: Manuel Isildo Fernandes de Castro
+            <!-- COLA AQUI O TEXTO DE IDENTIFICAÇÃO -->
+            <div class="card">
+                <div class="card-title">Identificação do Acidentado</div>
+                <div class="card-text">Nome: Manuel Isildo Fernandes de Castro
 Data de Nascimento: 21/02/1966 (Idade: 60)
 Nº Utente SNS: 10295008208</div>
             </div>
 
-            <!-- 3. MEDICAMENTOS -->
-            <div>
-                <h2 class="text-gray-500 font-bold text-sm uppercase tracking-wider mb-2 border-b pb-1">Saúde e Medicação Atual</h2>
-                <div class="whitespace-pre-line text-base text-gray-800 font-medium">Medicamentos em Uso: Nenhum
+            <!-- COLA AQUI O TEXTO DE MEDICAÇÃO -->
+            <div class="card">
+                <div class="card-title">Saúde e Medicação Atual</div>
+                <div class="card-text">Medicamentos em Uso: Nenhum
 Próteses/Implantes: Nenhum
 Vacina do Tétano: Atualizada</div>
             </div>
 
-            <!-- 4. CONTACTOS ICE -->
-            <div class="bg-gray-100 p-4 rounded-lg border border-gray-200">
-                <h2 class="text-gray-800 font-bold text-lg mb-2 flex items-center gap-2">
-                    <span>📞</span> CONTACTOS ICE (In Case of Emergency)
-                </h2>
-                <div class="whitespace-pre-line text-base text-gray-800 font-bold">Amélia (Esposa) - +351 938 296 030
+            <!-- COLA AQUI OS CONTACTOS -->
+            <div class="ice-box">
+                <h2>📞 Contactos ICE</h2>
+                <div class="card-text" style="font-weight: bold;">Amélia (Esposa) - +351 938 296 030
 Catarina (Filha) - +351 918 820 522
 Diogo (Filho) - +351 914 876 458</div>
             </div>
-
         </div>
     </div>
 </body>
