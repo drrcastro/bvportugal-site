@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bloqueia os motores de busca (Google, Bing) de indexar esta página -->
+    <meta name="robots" content="noindex, nofollow">
     <title>ICE | Emergência</title>
     <style>
         body {
@@ -25,7 +27,7 @@
             background-color: #dc2626;
             color: white;
             text-align: center;
-            padding: 20px 15px;
+            padding: 20px 15px 15px 15px;
         }
         .header h1 { margin: 10px 0 0 0; font-size: 24px; text-transform: uppercase; }
         .header p { margin: 5px 0 0 0; font-size: 14px; font-weight: bold; color: #fecaca; }
@@ -40,6 +42,23 @@
             border-bottom: 4px solid #eab308;
         }
         .content { padding: 20px; }
+        
+        /* Botão 112 */
+        .btn-112 {
+            display: block;
+            background-color: #16a34a;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-bottom: 4px solid #15803d;
+        }
+        .btn-112:active { transform: translateY(2px); border-bottom: 2px solid #15803d; margin-top: 2px; }
+
         .card { margin-bottom: 20px; }
         .card-title {
             font-size: 13px;
@@ -51,6 +70,7 @@
             margin-bottom: 10px;
         }
         .card-text { font-size: 16px; font-weight: 500; white-space: pre-line; line-height: 1.5; }
+        
         .alert-box {
             background-color: #fef2f2;
             border-left: 5px solid #dc2626;
@@ -59,6 +79,7 @@
             margin-bottom: 20px;
         }
         .alert-box h2 { color: #991b1b; font-size: 18px; margin: 0 0 10px 0; }
+        
         .ice-box {
             background-color: #f3f4f6;
             border: 1px solid #e5e7eb;
@@ -66,6 +87,7 @@
             border-radius: 8px;
         }
         .ice-box h2 { color: #1f2937; font-size: 18px; margin: 0 0 10px 0; }
+        
         .star-of-life { fill: white; width: 45px; height: 45px; margin: 0 auto; display: block; }
     </style>
 </head>
@@ -85,7 +107,11 @@
         </div>
 
         <div class="content">
-            <!-- COLA AQUI O TEXTO DE ALERTA -->
+            
+            <!-- Botão de Chamada de Emergência -->
+            <a href="tel:112" class="btn-112">📞 LIGAR 112</a>
+
+            <!-- DADOS MÉDICOS CRÍTICOS -->
             <div class="alert-box">
                 <h2>⚠️ Condições & Alergias</h2>
                 <div class="card-text" style="color: #7f1d1d; font-weight: bold;">Alergias: Nenhuma
@@ -93,7 +119,7 @@ Condições Graves: Nenhuma
 Tipo Sanguíneo: O rh+</div>
             </div>
 
-            <!-- COLA AQUI O TEXTO DE IDENTIFICAÇÃO -->
+            <!-- IDENTIFICAÇÃO -->
             <div class="card">
                 <div class="card-title">Identificação do Acidentado</div>
                 <div class="card-text">Nome: Manuel Isildo Fernandes de Castro
@@ -101,7 +127,7 @@ Data de Nascimento: 21/02/1966 (Idade: 60)
 Nº Utente SNS: 10295008208</div>
             </div>
 
-            <!-- COLA AQUI O TEXTO DE MEDICAÇÃO -->
+            <!-- MEDICAÇÃO -->
             <div class="card">
                 <div class="card-title">Saúde e Medicação Atual</div>
                 <div class="card-text">Medicamentos em Uso: Nenhum
@@ -109,13 +135,14 @@ Próteses/Implantes: Nenhum
 Vacina do Tétano: Atualizada</div>
             </div>
 
-            <!-- COLA AQUI OS CONTACTOS -->
+            <!-- CONTACTOS -->
             <div class="ice-box">
                 <h2>📞 Contactos ICE</h2>
                 <div class="card-text" style="font-weight: bold;">Amélia (Esposa) - +351 938 296 030
 Catarina (Filha) - +351 918 820 522
 Diogo (Filho) - +351 914 876 458</div>
             </div>
+            
         </div>
     </div>
 </body>
