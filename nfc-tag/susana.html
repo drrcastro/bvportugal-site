@@ -71,6 +71,20 @@
         }
         .card-text { font-size: 16px; font-weight: 500; white-space: pre-line; line-height: 1.5; }
         
+        /* Estilo para os Links de Telefone */
+        .tel-link {
+            color: #1d4ed8;
+            background-color: #dbeafe;
+            text-decoration: none;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+            border: 1px solid #bfdbfe;
+            display: inline-block;
+            margin-top: 2px;
+        }
+        .tel-link:active { background-color: #bfdbfe; }
+
         .alert-box {
             background-color: #fef2f2;
             border-left: 5px solid #dc2626;
@@ -93,9 +107,17 @@
 </head>
 <body>
     <div class="container">
+        
         <div class="header">
+            <svg class="star-of-life" viewBox="0 0 24 24">
+                <path d="M12 2L13.5 7H18L14.5 10.5L16 16L12 13L8 16L9.5 10.5L6 7H10.5L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
             <h1>Ficha de Emergência</h1>
             <p>Ler imediatamente em caso de acidente</p>
+        </div>
+
+        <div class="alert-helmet">
+            ⚠️ Não remover o capacete exceto em paragem cardiorrespiratória ⚠️
         </div>
 
         <div class="content">
@@ -127,12 +149,12 @@ Próteses/Implantes: Nenhum
 Vacina do Tétano: Atualizada</div>
             </div>
 
-            <!-- CONTACTOS -->
+            <!-- CONTACTOS COM LINKS CLICÁVEIS -->
             <div class="ice-box">
-                <h2>📞 Contactos Emergência</h2>
-                <div class="card-text" style="font-weight: bold;">Amélia (Esposa) - +351 938 296 030
-Catarina (Filha) - +351 918 820 522
-Diogo (Filho) - +351 914 876 458</div>
+                <h2>📞 Contactos ICE</h2>
+                <div class="card-text">Amélia (Esposa) - <a href="tel:+351938296030" class="tel-link">+351 938 296 030</a>
+Catarina (Filha) - <a href="tel:+351918820522" class="tel-link">+351 918 820 522</a>
+Diogo (Filho) - <a href="tel:+351914876458" class="tel-link">+351 914 876 458</a></div>
             </div>
             
         </div>
