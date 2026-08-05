@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bloqueia os motores de busca (Google, Bing) de indexar esta página -->
+    <meta name="robots" content="noindex, nofollow">
+    <title>Valter Salgado | Emergência</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: #f3f4f6;
+            color: #111827;
+            margin: 0;
+            padding: 0 0 20px 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 580px;
+            background: #fff;
+            min-height: 100vh;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #dc2626;
+            color: white;
+            text-align: center;
+            padding: 20px 15px 15px 15px;
+        }
+        .header h1 { margin: 10px 0 0 0; font-size: 24px; text-transform: uppercase; }
+        .header p { margin: 5px 0 0 0; font-size: 14px; font-weight: bold; color: #fecaca; }
+        .alert-helmet {
+            background-color: #facc15;
+            color: #713f12;
+            text-align: center;
+            padding: 12px 15px;
+            font-weight: bold;
+            font-size: 13px;
+            text-transform: uppercase;
+            border-bottom: 4px solid #eab308;
+        }
+        .content { padding: 20px; }
+        
+        /* Botão 112 */
+        .btn-112 {
+            display: block;
+            background-color: #16a34a;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-bottom: 4px solid #15803d;
+        }
+        .btn-112:active { transform: translateY(2px); border-bottom: 2px solid #15803d; margin-top: 2px; }
+
+        .card { margin-bottom: 20px; }
+        .card-title {
+            font-size: 13px;
+            font-weight: bold;
+            color: #6b7280;
+            text-transform: uppercase;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .card-text { font-size: 16px; font-weight: 500; white-space: pre-line; line-height: 1.5; }
+
+        .tel-link {
+            color: #1d4ed8;
+            background-color: #dbeafe;
+            text-decoration: none;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+            border: 1px solid #bfdbfe;
+            display: inline-block;
+            margin-top: 2px;
+        }
+        .tel-link:active { background-color: #bfdbfe; }
+        
+        .alert-box {
+            background-color: #fef2f2;
+            border-left: 5px solid #dc2626;
+            padding: 15px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 20px;
+        }
+        .alert-box h2 { color: #991b1b; font-size: 18px; margin: 0 0 10px 0; }
+        
+        .ice-box {
+            background-color: #f3f4f6;
+            border: 1px solid #e5e7eb;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .ice-box h2 { color: #1f2937; font-size: 18px; margin: 0 0 10px 0; }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Ficha de Emergência</h1>
+            <p>Ler imediatamente em caso de acidente</p>
+        </div>
+
+        <div class="content">
+            
+            <!-- Botão de Chamada de Emergência -->
+            <a href="tel:112" class="btn-112">📞 LIGAR 112</a>
+
+            <!-- DADOS MÉDICOS CRÍTICOS -->
+            <div class="alert-box">
+                <h2>⚠️ Condições & Alergias</h2>
+                <div class="card-text" style="color: #7f1d1d; font-weight: bold;">Alergias: Nenhuma
+Condições Graves: Nenhuma
+Tipo Sanguíneo: A+</div>
+            </div>
+
+            <!-- IDENTIFICAÇÃO -->
+            <div class="card">
+                <div class="card-title">Identificação do Acidentado</div>
+                <div class="card-text">Nome: Valter André Ferreira Salgado
+Data de Nascimento: 17/04/1978
+Nº Identificação: 176349896</div>
+            </div>
+
+            <!-- MEDICAÇÃO -->
+            <div class="card">
+                <div class="card-title">Saúde e Medicação Atual</div>
+                <div class="card-text">Medicamentos em Uso: Nenhum
+Próteses/Implantes: Nenhum</div>
+            </div>
+
+            <!-- CONTACTOS -->
+            <div class="ice-box">
+                <h2>📞 Contactos Emergência</h2>
+                <div class="card-text">Vera (Esposa) ><a href="tel:+351913328800" class="tel-link">+351 913 328 800</a>
+Gabriela (Filha) ><a href="tel:+351917057862" class="tel-link">+351 917 057 862</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
